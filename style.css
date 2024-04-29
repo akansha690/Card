@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.body {
+    background-color: rgba(37, 37, 37, 0.562);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 250px;
+    left: 34px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 7px;
+    gap: 10px;
+}
+
+.img {
+    position: relative;
+}
+
+.duration {
+    position: absolute;
+    bottom: 12px;
+    right: 5px;
+    font-size: 13px;
+    background-color: #00000099;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+
+.otherDetails {
+    display: flex;
+    margin: 0px -16px;
+}
+
+.cName {
+    list-style: none;
+}
+
+.list {
+    margin: 0px 15px;
+}
